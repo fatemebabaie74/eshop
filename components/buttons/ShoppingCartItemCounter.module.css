@@ -1,0 +1,11 @@
+.outerContainer{
+    background-color: rgb(214, 6, 225);
+    padding: 0.5em 3em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: aliceblue;
+    margin-top: 1em;
+    cursor: pointer;
+}

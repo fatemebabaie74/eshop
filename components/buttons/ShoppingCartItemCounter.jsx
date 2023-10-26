@@ -1,7 +1,12 @@
 import React from "react";
 import styles from "./ShoppingCartItemCounter.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { increaseCount } from "../../redux/features/shoppingCart/ShoppingCartSlice";
+import {
+  decreaseCount,
+  increaseCount,
+  removeItem,
+} from "../../redux/features/shoppingCart/ShoppingCartSlice";
+import { BsFillTrash3Fill } from "react-icons/bs";
 
 const ShoppingCartItemCounter = ({ productId }) => {
   const dispatch = useDispatch();
@@ -11,10 +16,14 @@ const ShoppingCartItemCounter = ({ productId }) => {
   )[0].count;
 
   return (
-    <div>
-      <span>-</span>
-      <span>{itemCount}</span>
+    <div className={`${styles.outerContainer}`}>
       <span onClick={() => dispatch(increaseCount(productId))}>+</span>
+      <span>{itemCount}</span>
+      {itemCount === 1 ? (
+        <BsFillTrash3Fill onClick={() => dispatch(removeItem(productId))} />
+      ) : (
+        <span onClick={() => dispatch(decreaseCount(productId))}>-</span>
+      )}
     </div>
   );
 };

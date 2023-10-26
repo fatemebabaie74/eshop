@@ -40,7 +40,8 @@ const shoppingCartSlice = createSlice({
       return recalculateTotals(state);
     },
     removeItem: (state, action) => {
-      state.items.filter((item) => item.id !== action.payload);
+      state.items = state.items.filter((item) => item.id !== action.payload);
+
       return recalculateTotals(state);
     },
   },
