@@ -2,8 +2,12 @@ import React from "react";
 import styles from "./Card.module.css";
 import Image from "next/image";
 import AddToShoppingCart from "./buttons/AddToShoppingCart";
+import ShoppingCartItemCounter from "./buttons/ShoppingCartItemCounter";
+import { useSelector } from "react-redux";
 
 const Card = ({ product }) => {
+  const shoppingCart = useSelector((state) => state.shoppingCart);
+
   return (
     <div className={styles.mainContainer}>
       <div className={`${styles.incredibleOfferImageContainer}`}>
@@ -56,7 +60,9 @@ const Card = ({ product }) => {
           </label>
         </div>
       )}
-      {product.stock !== 0 ? (
+      {shoppingCart.items.find((item) => item.id === product.id) ? (
+        <ShoppingCartItemCounter productId={product.id} />
+      ) : product.stock !== 0 ? (
         <AddToShoppingCart product={product} />
       ) : (
         <span>ناموجود</span>
