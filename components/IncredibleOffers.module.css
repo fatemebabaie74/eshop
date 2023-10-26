@@ -1,0 +1,15 @@
+.outerContainer{
+    background-color: rgb(206, 0, 0);
+    border-radius: 10px;
+    display: flex;
+}
+.carouselContainer{
+  width: 80%;
+}
+.rightContainer{
+width: 20%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}

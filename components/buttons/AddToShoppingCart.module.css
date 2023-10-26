@@ -1,0 +1,11 @@
+.outerContainer{
+    background-color: green;
+    padding: 0.5em 3em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 1em;
+    cursor: pointer;
+    
+}
