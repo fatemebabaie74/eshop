@@ -6,7 +6,7 @@ import Image from "next/image";
 import LoginSignupErrorMessage from '../components/LoginSignUpErrorMessage'
 import { POST } from "../repository/AxiosRepository";
 // import { setToken } from "../redux/features/users/UsersSlice";
-import welcome from './welcome'
+
 import { useRouter } from "next/router";
 
 import { useDispatch } from "react-redux";
