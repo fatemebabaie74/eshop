@@ -17,12 +17,14 @@ const ShoppingCartItemCounter = ({ productId }) => {
 
   return (
     <div className={`${styles.outerContainer}`}>
-      <span onClick={() => dispatch(increaseCount(productId))}>+</span>
+      <span className={`${styles.spanContainer}`} onClick={() => dispatch(increaseCount(productId))}>+</span>
+
       <span>{itemCount}</span>
+
       {itemCount === 1 ? (
-        <BsFillTrash3Fill onClick={() => dispatch(removeItem(productId))} />
+        <BsFillTrash3Fill className={`${styles.svgContainer}`} onClick={() => dispatch(removeItem(productId))} />
       ) : (
-        <span onClick={() => dispatch(decreaseCount(productId))}>-</span>
+        <span className={`${styles.spannContainer}`} onClick={() => dispatch(decreaseCount(productId))}>-</span>
       )}
     </div>
   );

@@ -1,0 +1,9 @@
+.outerContainer{
+    display: flex;
+    direction: rtl;
+    margin-right: 2em;
+}
+
+.mainContainer{
+    /* margin: -.5em 2em 1em 0em; */
+}

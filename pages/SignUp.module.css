@@ -1,0 +1,54 @@
+.outerContainer {
+     /* direction: rtl;
+    width: 25%;
+    margin: auto;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 1em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;  */
+
+
+
+    display: flex;
+   margin: auto;
+    border: 1px solid #e0e0e2;
+ 
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    border-radius: 8px;
+    margin-top: 50px ;
+   direction: rtl;
+   width: 22%;
+}
+
+.fieldsContainer {
+    
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.field {
+    margin: 1em 0;
+   width: 120%;
+    font-weight: 700;
+    line-height: 2.5;
+    color: #3f4064;
+    border: 1px solid #348088;
+    border-radius: 8px;
+}
+
+.loginButton {
+    
+    width: 120%;
+   color: white; 
+    padding: 14px 20px;
+    border-radius: 8px; 
+    border: 1px solid #309aa5;
+    background-color: rgb(32, 172, 0);
+}

@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
-const INITIAL_STATE = { items: [], totalCount: 0, totalPrice: 0, totalpaid: 0 };
+const INITIAL_STATE = { items: [], totalCount: 0, totalPrice: 0, totalpaid: 0 ,  };
 
 const recalculateTotals = (state) => {
+  
   state.totalPrice = 0;
   state.totalpaid = 0;
   state.totalCount = state.items.length;

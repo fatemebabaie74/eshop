@@ -8,6 +8,7 @@ import Context from "../contextApi/Context";
 import SevenIcons from "../components/SevenIcons";
 import Carusel from "../components/Carusel";
 import IncredibleOffers from "../components/IncredibleOffers";
+import IncredibleSuperMarket from "../components/supermarket/IncredibleSuperMarket";
 
 export default function Home(props) {
   console.log(props);
@@ -18,8 +19,13 @@ export default function Home(props) {
         <SevenIcons products={props.sevenIconsResponse} />
 
         <IncredibleOffers data={props.incredibleOffersResponse} />
-      </Context.Provider>
-    </div>
+        <IncredibleSuperMarket />
+         </Context.Provider>
+
+        </div>
+     
+     
+    
   );
 }
 
@@ -32,6 +38,10 @@ export async function getStaticProps(context) {
 
   const incredibleOffersRequest = await GET("/products/incredibleOffers");
   const incredibleOffersResponse = await incredibleOffersRequest.json();
+
+  // const IncredibleSuperMarketRequest = await GET("/products/dailySuggests");
+  // const IncredibleSuperMarketResponse = await IncredibleSuperMarketRequest.json();
+  
   return {
     props: { mainSliderResponse, sevenIconsResponse, incredibleOffersResponse },
     revalidate: 600,

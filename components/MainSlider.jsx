@@ -9,14 +9,17 @@ const MainSlider = () => {
   console.log(mainSliderImages);
   return (
     <div>
-      <ReactImageGallery
+   
+      <ReactImageGallery 
         key={mainSliderImages.id}
         id={mainSliderImages.id}
         autoPlay={true}
         slideInterval={2000}
+        showThumbnails = {false}
         showPlayButton={false}
         showFullscreenButton={false}
         isRTL={true}
+      
         items={mainSliderImages}
       />
     </div>

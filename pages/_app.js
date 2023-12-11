@@ -1,5 +1,7 @@
+import { PersistGate } from "redux-persist/integration/react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { ReduxPersistStore, persistor } from "../redux/ReduxPersistStore";
 import { Store } from "../redux/Store";
 import "../styles/globals.css";
 import localFont from "next/font/local";
@@ -12,12 +14,14 @@ export const iranSanseWeb = localFont({
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Provider store={Store}>
-        <main className={iranSanseWeb.className}>
-          <Header />
-          <Component {...pageProps} />
-          <Footer />
-        </main>
+      <Provider store={ReduxPersistStore}>
+        <PersistGate loading={<h1>loading...</h1>} persistor={persistor}>
+          <main className={iranSanseWeb.className}>
+            <Header />
+            <Component {...pageProps} />
+            <Footer />
+          </main>
+        </PersistGate>
       </Provider>
     </>
   );

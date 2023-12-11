@@ -1,11 +1,29 @@
-.outerContainer{
-    background-color: rgb(214, 6, 225);
+  .outerContainer{
+    background-color: #fff;
     padding: 0.5em 3em;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    color: aliceblue;
+    color: #e6123d;
     margin-top: 1em;
     cursor: pointer;
+    border: 1px solid #f0f0f1;
+    /* margin-top: 255px;
+    margin-bottom: 12px; */
+} 
+
+  .spanContainer{
+    padding-left: 8px;
+    padding-right: 8px;
 }
+.spannContainer{
+     padding-left: 8px;
+padding-right: 8px;
+}
+.svgContainer{
+    font-size: 15px;
+    margin-right: 13px;
+} 
+
+

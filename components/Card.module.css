@@ -40,11 +40,12 @@
     width: 3em; 
     font-size: 0.9em;
     border-radius: 1em;
-    height: 1.7em;
+    height: 1.6em;
     border-style: none;
     background-color: #22a51d;
     color: rgb(241, 235, 235);  
-    padding: 5px;
+    padding: 4px;
+   
 }
 .incredibleOfferImageContainer{
   padding-top: 15px;

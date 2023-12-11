@@ -1,0 +1,134 @@
+.outercontainer{
+direction: rtl;
+margin-top: 5px;
+margin-top: 60px;
+display: flex;
+}
+
+.maincontainer{
+
+}
+.licontainer{
+    list-style: none;
+    font-size: 15px;
+    color:   #a1a3a8;
+
+}
+
+.lidigicontainer{
+    font-weight: 800;
+    list-style: none;
+    font-size: 20px;
+    
+    
+}
+
+.midcontainer{
+display: flex;
+margin-right: 250px;
+}
+
+.ulmidcontainer{
+
+}
+
+.limidcontainer{
+    list-style: none;
+    font-size: 15px;
+    color:   #a1a3a8;
+}
+
+.limidclientcontainer{
+    font-weight: 800;
+    list-style: none;
+    font-size: 20px;
+    
+
+}
+
+.midtwocontainer{
+    margin-right: 285px;
+}
+.midtwoulcontainer{
+
+}
+
+.midtwolicontainer{
+    list-style: none;
+    font-size: 15px;
+    color:   #a1a3a8;
+
+
+}
+
+.midtwoliicontainer{
+    font-weight: 800;
+    list-style: none;
+    font-size: 20px;
+    
+   
+}
+
+.leftcontainer{
+    margin-right: 180px;
+};
+
+
+.leftulcontainer{
+
+}
+
+.leftlicontainer{
+    font-weight: 800;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.svgcontainer{
+    margin: 0em -4em 0em -5em;
+    padding: 2em;
+}
+
+.svgleftcontainer{
+    margin: 0em 1em 0em 2em;
+    font-size: 25px;
+    color: #a1a3a8;
+}
+
+.emailcontainer{
+
+    margin-top: 174px;
+    /* margin-left: 23px; */
+    display: block;
+}
+
+
+.emailspancontainer{
+    margin: 0em -20.5em 0em 0em;
+    display: flex;
+    
+}
+
+.inputcontainer{
+    margin-right: -324px;
+    margin-top: 10px;
+    width: 232px;
+    /* border: 1px solid #a1a3a8; */
+    border-radius: 5px;
+    height: 47px;
+    font-size: 18px;
+    color: #a1a3a8;
+    padding-right: 10px;
+}
+
+.buttoncontainer{
+    margin-right: 15px;
+    width: 55px;
+    height: 47px;
+    border-radius: 10px;
+     border: none; 
+    background-color: #e0e0e2;
+    color: white;
+    font-size: 18px;
+}

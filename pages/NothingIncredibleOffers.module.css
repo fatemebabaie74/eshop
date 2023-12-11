@@ -1,0 +1,17 @@
+.counterContainer{
+    border: 1px solid rgb(192, 192, 192);
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    border-radius: 10px;
+    height: 25vh;
+}
+
+.mainContainer{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin: auto;
+}

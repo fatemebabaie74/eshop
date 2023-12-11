@@ -1,0 +1,19 @@
+.outerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 1em;
+   
+}
+.button{
+padding: 1em 6.5em;
+border-radius: 5px;
+border: 1px solid #d3d3e0;
+background-color: white;
+}
+
+.span{
+
+font-size:18px;
+
+}

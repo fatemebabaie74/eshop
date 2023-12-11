@@ -1,0 +1,434 @@
+.outerContainer{
+   border:1px solid #e0e0e2;
+   border: 1px solid #e0e0e2;
+   width: 43vw;
+   margin-top: 13em;
+   direction: rtl;
+   margin-right: -87.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   border-radius: 12px;
+  
+
+}
+
+.detailsContainer{
+
+}
+
+.rightContainer{
+    /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+   margin-right: -300px;
+   margin-left: 15em;      */ 
+   margin-top: 3em;
+}
+
+
+.product{
+margin-top: 2em;
+}
+
+.counterContainer{
+  display: flex;
+  /* margin-top: 30px; */
+  margin-bottom: 50px;
+  /* margin-right: 1em; */
+
+
+}
+
+
+.leftContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* margin-top: -2em;
+    margin-right: 2em;  */
+}
+
+.productName{
+   display: flex;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #23254e;
+  margin-top: -20em;
+   margin-right: 12em;  
+}
+
+
+ .productPrice{
+
+}
+.leftbottomContainer{
+
+}
+
+.ulContainer{
+
+  direction: rtl;
+  /* margin-top: -2em; */
+  margin-left: 2em;
+  list-style: none;
+
+}
+
+.liContainer{
+
+}
+
+.leftContainerr{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .outerContainer{
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+    width: 65%;
+    display: flex;
+}
+.topContainer{
+   display: flex;
+   flex-grow: 1;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding: 12px;
+} 
+.cart{
+    font-size: 16px;
+    font-weight: 900;
+    color: #0c0c0c;
+    display: flex;
+    align-items: center;
+}
+.button{
+  display: flex;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-left: -530px;
+}
+.icon{
+  font-size: 20px;
+  font-weight: bolder;
+   color: #a1a3a8;
+}
+.span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+.detailsContainer{
+  display: flex;
+  width: 65%;
+}
+
+.rightContainer{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+  margin-right: -439px 
+
+
+
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 38px;
+    margin-right: -300px;
+     margin-left: 15em;
+}
+.productContainer{
+  display: flex;
+}
+
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 112px;
+     margin-right: -200px;
+}
+.productName{
+ display: flex;
+ font-size: 14px;
+ font-weight: bolder;
+ color: #23254e;
+}
+.productPrice{
+  justify-content: space-between;
+    color: #23254e;
+    display: flex;
+    align-items: center;
+    margin-right: -326px;
+
+} */
+
+.outerContainer{
+    /* display: flex;
+     position: relative; 
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+      /* width: 65%; */
+      /* margin-left: -21.6em; 
+     margin-top: 13em; 
+  direction: rtl;
+     position: relative;
+     border-radius: 8px;
+     border: 1px solid #e0e0e2;
+ 
+     display: flex;
+     width: 43vw; */
+
+
+/* 
+
+       border:1px solid #e0e0e2;
+     margin-top: 10px;
+     width: 65%;
+     margin-left: 450px;
+     border-radius: 8px;
+     display: flex;
+     flex-direction: column;
+     direction: rtl;   */
+   
+}
+
+
+.rightContainer{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 38px;
+  margin-right: -300px;
+   margin-left: 15em;  */
+}
+
+
+/* .button{
+    display: flex;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-left: -530px;
+  }
+
+
+  .detailsContainer{
+    display: flex;
+    width: 65%;
+    margin-left: 40em;
+
+  }
+
+  .rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 38px;
+    margin-right: -300px;
+     margin-left: 15em; 
+  }
+
+  .productContainer{
+    display: flex;
+  }
+  .counterContainer{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  .leftContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 112px;
+     margin-right: -500px;
+}
+.productName{
+    display: flex;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #23254e;
+    margin-left: -50em;
+    margin-bottom: 2em;
+    margin-top: -3em;
+
+
+        color:#23254e ;
+        font-weight: 700;
+        margin-right: 25px;
+
+   }
+   .productPrice{
+    justify-content: space-between; 
+      color: #23254e;
+      display: flex;
+        /* align-items: center;  
+       /* margin-right: 2em; 
+ /* margin-left: -9em;
+  margin-top:8.5em;
+   padding-right: 3em;   
+  }
+
+  .leftbottomContainer{
+
+  }
+
+  .ulContainer{
+
+
+    direction: rtl;
+    margin-top: -7em;
+
+  }
+
+  .liContainer{
+    margin-left: -27em;
+    direction: rtl;
+    list-style: none;
+    padding-right: 17em;
+    padding-bottom: 1em;
+  } */
+
+
+  /* .outercontainer{
+    border:1px solid #e0e0e2;
+    margin-top: 10px;
+    width: 65%;
+    margin-left: 450px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    
+    
+ 
+    .span2{
+    color: #81858b;
+    margin-top: 5px;
+    }
+    .rightcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+    }
+    .imgd{
+    
+    }
+    
+    .images{
+    
+    
+    }
+    .namecontainer{
+    
+    }
+    .name{
+        color:#23254e ;
+        font-weight: 700;
+        margin-right: 25px;
+    }
+    .infocontainer{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: right;
+    width: 44%;
+    margin-right: 181px;
+     margin-top: -118px;
+    
+    }
+    .infospane{
+        margin-top: 5px;
+        color: #62666d;
+    }
+    .leftcontainer{
+    
+    }
+    
+    .lefttopcontainer{
+        
+    }
+    .leftbottomcontainer{ 
+     background-color:white;
+     width:16%;
+     margin-bottom: 11px;
+        margin-right: 11px;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .containerprice{
+    
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-right: 179px
+    }
+    .price{
+        color:#23254e;
+        margin-top: -38px;
+        font-weight: 700;
+    }
+    .color1{    
+    color: black;
+    }
+    .color2{    
+    color: #a1a3a8;
+    }
+    .color3{    
+        color: #a1a3a8;
+    }
+    .color4{    
+        color: #19bfd3;
+    }
+    .color5{    
+    color:#e6123d ;
+    }
+    .color6{    
+    color: #1028ff;
+    } */

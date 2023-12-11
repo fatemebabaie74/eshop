@@ -1,0 +1,48 @@
+.outercontainer{
+    direction: rtl;
+    background-color: #3f4064;
+    width: 90%;
+    /* display: flex; */
+    justify-content: center;
+    border-radius: 11px;
+    margin: auto;
+    height: 80px;
+    margin-top: 1em;
+    /* border-bottom: 1px solid #f2f2f2; */
+}
+.maincontainer{
+
+}
+
+.imagecontainer{
+    margin-top: 0.9em;
+    margin-right: 2em;
+}
+
+.divcontainer{
+    padding: 2em;
+    color: white;
+    font-size: 20px;
+    margin-top: -4.5em;
+    margin-right: 4em;
+}
+
+.leftcontainer{
+    display: flex;
+    justify-content: end;
+}
+
+.leftimagescontainer{
+    width: 100px;
+    margin: -5.5em 0em 1em 1em;
+
+}
+
+.leftimagespetioalscontainer{
+    color: white;
+    width: 50px;
+    height: 54px;
+    margin: -5.2em 0em -1em 1em;
+    background-color: aliceblue;
+    border-radius: 13px;
+}

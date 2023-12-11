@@ -1,0 +1,93 @@
+.outerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #b12ba4;
+  border-radius: 8px;
+  width: 65%;
+  margin-bottom: 18px;
+  padding-top: 42px;
+  direction: rtl;
+  margin-left: 81em;
+
+}
+
+.rightContainer{
+  display: flex;
+  flex-direction: column;
+  margin-right: -40px;
+  margin-top: -20px;
+
+}
+
+.rightItems{
+  display: flex;
+  margin:8px 0 ;
+}
+
+
+
+.text{
+  color: #4b4c6d;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1px
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  background-color: #b12ba4;
+  width: 225px;
+  padding: 1em;
+}
+
+.leftIcon{
+  display: flex;
+  position: relative;
+  /* margin-left: 0px;
+  margin-top: -74px; */
+}
+
+
+.leftContainer{
+  display: flex;
+  position: relative;
+}
+
+.leftItemsContainer{
+  position: relative;
+  margin-left: 5em;
+  margin-top: -5em;
+}
+
+.leftList{
+  display: flex;
+   flex-direction: column;
+}
+
+.leftListText{
+  font-size: 12px;
+    color: #81858b;
+    padding: 5px;
+}
+
+.leftImage{
+  position: absolute;
+  left: -74px;
+  top: -95px;
+}
+
+.leftimagee{
+
+}

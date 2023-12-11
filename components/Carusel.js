@@ -10,15 +10,15 @@ const Carusel = (props) => {
   let settings = {
     className: "innerSliderDiv",
     adaptiveHeight: true,
-    speed: 700,
+    speed: 800,
     centerMode: true,
-    centerPadding: "1em",
+    centerPadding: "1.5em",
     swipeToSlide: true,
     rtl: true,
     slidesToShow: props.cardsCount,
     slidesToScroll: 1,
-    nextArrow: <NextArrow width="30px" height="30px" />,
-    prevArrow: <PrevArrow width="30px" height="30px" />,
+    nextArrow: <NextArrow width="70px" height="70px" />,
+    prevArrow: <PrevArrow width="50px" height="50px" />,
     responsive: [
       {
         breakpoint: 300,

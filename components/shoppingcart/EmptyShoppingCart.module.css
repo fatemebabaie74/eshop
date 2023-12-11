@@ -1,0 +1,28 @@
+.outerContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+direction: rtl;
+border: 1px solid #e0e0e2;
+width: 65%;
+margin: auto;
+border-radius: 10px;
+flex-direction: column;
+padding: 2em;
+}
+
+
+.mainContainer{
+
+}
+.image{
+    padding-bottom: 5em;
+}
+
+.hcontainer{
+/* margin: auto; */
+margin-right: 5em;
+}
+.spancontainer{
+    margin-right: -1em;
+}

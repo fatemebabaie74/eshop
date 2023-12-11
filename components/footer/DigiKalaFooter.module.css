@@ -1,0 +1,61 @@
+.outerContainer{
+direction: rtl;
+border-top: 1px solid #e0e0e2;
+margin-top: 10px;
+}
+
+.mainContainer{
+
+}
+
+.phoneContainer{
+
+display: flex;
+margin-top: -52px;
+}
+
+.pContainer{
+color: #3f4064;;
+
+}
+
+.divvContainer{
+
+}
+
+.buttonContainer{
+    margin-top: 65px;
+    border: 1px solid #e0e0e2;
+    /* padding: 1em; */
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+    margin-left: 1em;
+    width: 8%;
+    height: 5vh;
+}
+
+.divContainer{
+    display: flex;
+    justify-content: left;
+    margin-top: -140px;
+    margin-left: 50px;
+    position: relative;
+
+}
+
+.svgContainer{
+    margin-left: -5em;
+    
+}
+
+.pContainer{
+    /* margin-left: 1em; */
+    position: absolute;
+    margin-top: 0em;
+     margin-right: 2em; 
+}  
+
+.divsvgContainer{
+
+}

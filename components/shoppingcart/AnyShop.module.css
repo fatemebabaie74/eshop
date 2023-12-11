@@ -1,0 +1,30 @@
+.outerContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #e0e0e2;
+width: 70%;
+border-radius: 15px;
+margin:2em auto;
+flex-direction: column;
+height: 35vh;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.image{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.p{
+text-align: center;
+font-weight: bold;
+}
+.span{
+    text-align: center;
+    color: #81858b;
+}

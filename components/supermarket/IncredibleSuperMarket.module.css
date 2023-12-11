@@ -1,0 +1,81 @@
+.outerContainer{
+     background-color:rgb(219, 248, 219);
+    direction: rtl;
+     padding: .5em; 
+    
+    border-radius: 10px;
+    display: flex;
+    
+    width: 75%;
+    margin: auto;
+    margin-top: 3em; 
+}
+
+.rightContainer{
+ display: flex;
+justify-content: space-around;
+align-items: center;
+width: 40%; 
+}
+
+.subrightContainer{
+     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -3em; 
+}
+.spanContainer{
+     padding: 10px; 
+     color: #4caf50;
+     font-weight: 600;
+     font-size: 20px;
+}
+
+/* .img{
+     font-size: 20px;
+} */
+.saleContainer{
+
+   
+}
+.btnContainer{
+      border: none;
+    padding: 1em 4em;
+    border-radius: 10px; 
+    background-color: #4caf50; 
+    color: white;
+    font-size: 18px;
+}
+
+
+.midContainer{
+     display: flex;
+    /* width: 40%;  */ 
+}
+
+.itemContainer{
+      display: flex; 
+    margin: 0em 10em 0em 4em; 
+
+}
+.imageContainer{
+      margin: 1em ; 
+    border-radius: 40%;
+     width: 40%;  
+}
+
+.buttonContainer{
+   
+  
+ 
+
+}
+
+.buttondetailContainer{
+    border: none;
+    border-radius: 8px;
+    padding: 1em 4em;
+         margin-right: 5em; 
+     margin-top: 2em;   
+     color: #4caf50;
+}

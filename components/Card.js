@@ -4,6 +4,7 @@ import Image from "next/image";
 import AddToShoppingCart from "./buttons/AddToShoppingCart";
 import ShoppingCartItemCounter from "./buttons/ShoppingCartItemCounter";
 import { useSelector } from "react-redux";
+import OutOfStock from "./buttons/OutOfStock";
 
 const Card = ({ product }) => {
   const shoppingCart = useSelector((state) => state.shoppingCart);
@@ -17,7 +18,7 @@ const Card = ({ product }) => {
             alt={product.name}
             src="/images/IncredibleOffer.svg"
             width={200}
-            height={15}
+            height={200}
           />
         ) : null}
       </div>
@@ -65,7 +66,8 @@ const Card = ({ product }) => {
       ) : product.stock !== 0 ? (
         <AddToShoppingCart product={product} />
       ) : (
-        <span>ناموجود</span>
+        // <span>ناموجود</span>
+        <OutOfStock/>
       )}
     </div>
   );
