@@ -3,14 +3,15 @@ import styles from './SignUp.module.css'
 import * as Yup from "yup";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import Image from "next/image";
-import LoginSignupErrorMessage from '../components/LoginSignUpErrorMessage'
+import LoginSignUpErrorMessage from '../components/LoginSignUpErrorMessage'
 import { POST } from "../repository/AxiosRepository";
 // import { setToken } from "../redux/features/users/UsersSlice";
 
 import { useRouter } from "next/router";
 
 import { useDispatch } from "react-redux";
-import Cookies from "cookies";
+import Cookies from "js-cookie";
+
 
 
 const SignUp = () => {
@@ -30,7 +31,7 @@ const SignUp = () => {
   const submitHandler = (values) => {
     
     POST("/users/register", values).then((response) => {
-      //console.log(response.data);
+     
 
       if (response.data.id !== 0) 
       {
@@ -40,7 +41,7 @@ const SignUp = () => {
             expires: 7,
             path: "/admin",
           });
-          router.push("/welcome");
+          router.push("/Login");
         });
       }
     });
@@ -64,14 +65,14 @@ const SignUp = () => {
               name="username"
               placeholder="شماره موبایل"
             />
-            <ErrorMessage name="username" component={LoginSignupErrorMessage} />
+            <ErrorMessage name="username" component={LoginSignUpErrorMessage} />
             <Field
               className={`${styles.field}`}
               type="password"
               name="password"
               placeholder="رمز عبور"
             />
-            <ErrorMessage name="password" component={LoginSignupErrorMessage} />
+            <ErrorMessage name="password" component={LoginSignUpErrorMessage} />
             <button
               type="submit"
               className={`${styles.loginButton}  ${styles.filed}`}

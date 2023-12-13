@@ -14,7 +14,7 @@ export default function middleware(request){
       return NextResponse.redirect(`${request.nextUrl.origin}/users/login`); 
     }
   //   if(request.cookies.get("token")){
-  //     return NextResponse.rewrite(new URL('/admin/Dashboard', request.nextUrl.origin));
+  //     return NextResponse.rewrite(new URL('/admin/dashboard', request.nextUrl.origin));
   //  }
  
 }

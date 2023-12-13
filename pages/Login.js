@@ -3,9 +3,11 @@ import styles from "./Login.module.css";
 import * as Yup from "yup";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import Image from "next/image";
-import LoginSignupErrorMessage from "../components/messageComponents/LoginSignupErrorMessage";
+import LoginSignupErrorMessage from '../components/LoginSignUpErrorMessage'
+import { useRouter } from "next/router";
 
 const Login = () => {
+  const router = useRouter();
   const validationSchema = Yup.object({
     username: Yup.string().required("شماره موبایل خود را وارد نمایید"),
     password: Yup.string().required("رمز عبور را وارد نمایید"),
@@ -17,7 +19,8 @@ const Login = () => {
   };
 
   const submitHandler = (values) => {
-    console.log(values);
+    // console.log(values);
+    router.push("/welcome");
   };
 
   return (
@@ -27,7 +30,7 @@ const Login = () => {
         initialValues={formFields}
         validationSchema={validationSchema}
         validateOnChange={false}
-        validateOnBlur={false}
+        validateOnBlur={Login.handleblur}
       >
         <Form>
           <div className={`${styles.fieldsContainer}`}>

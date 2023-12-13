@@ -1,9 +1,9 @@
 import React from 'react'
-
+import styles from './welcome.module.css'
 const welcome = () => {
   return (
-    <div>
-      welcome
+    <div className={`${styles.outerContainer}`}>
+   خوش آمدید
     </div>
   )
 }
